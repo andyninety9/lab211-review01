@@ -46,7 +46,7 @@ public class MyLib {
     }
     
     public static String getString(String mess){
-        System.out.println(mess);
+        System.out.print(mess);
         return sc.nextLine();
     }
     
@@ -57,6 +57,15 @@ public class MyLib {
         result += tmp;
 //        SE182823
         return result;
+    }
+    
+    public static boolean confirmOption(String mess){
+        String option = getString(mess);
+        if(option.equalsIgnoreCase("yes")){
+            return true;
+        }else{
+            return false;
+        }
     }
     
 }

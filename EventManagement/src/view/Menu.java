@@ -22,4 +22,13 @@ public class Menu {
         System.out.println("|\t\tOthers: Quit.\t\t\t\t\t|");
         System.out.println("+---------------------------------------------------------------+");
     }
+    public static void displaySubMenuUpdate(){
+        System.out.println("+---------------------------------------------------------------+");
+        System.out.println("|\t\t\t     UPDATE EVENT\t\t\t|");
+        System.out.println("+---------------------------------------------------------------+");
+        System.out.println("|\t1. Update event details\t\t\t\t\t|");
+        System.out.println("|\t2. Delete event\t\t\t\t\t\t|");
+        System.out.println("|\t\tOthers: Quit.\t\t\t\t\t|");
+        System.out.println("+---------------------------------------------------------------+");
+    }
 }
